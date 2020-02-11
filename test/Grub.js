@@ -20,6 +20,6 @@ describe('Grub class functionality', () => {
   });
 
   it('should eat jelly', () => {
-    expect(grub.eat()).to.equal('Mmmmmmmmm jelly');
+    expect(grub.eat('jelly')).to.equal('Mmmmmmmmm jelly');
   });
 });
